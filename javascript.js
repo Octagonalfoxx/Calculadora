@@ -27,3 +27,24 @@ function total()
 {
 	document.calc.resultado.value = eval (document.calc.resultado.value)
 }
+
+function sct(variable)
+{
+    if(variable == "sen")
+    {
+        document.calc.resultado.value = Math.sin(document.calc.resultado.value)
+    }
+    if(variable == "cos")
+    {
+        document.calc.resultado.value = Math.cos(document.calc.resultado.value)
+    }
+    if(variable == "tan")
+    {
+        document.calc.resultado.value = Math.tan(document.calc.resultado.value)
+    }
+}
+
+function elevado()
+{
+    document.calc.resultado.value = document.calc.resultado.value*document.calc.resultado.value
+}
